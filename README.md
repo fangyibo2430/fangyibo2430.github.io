@@ -18,6 +18,8 @@ Edit one file, deploy to GitHub Pages.
 [**Live demo**](https://siruizou.com/academic-homepage/) &nbsp;·&nbsp;
 [**Use this template**](https://github.com/siruizou2005/academic-homepage/generate)
 
+<sub>If it is useful to you, a star is how the next person finds it.</sub>
+
 <br>
 
 <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fsiruizou.com%2Facademic-homepage%2F&form_factor=mobile"><img src="docs/lighthouse.png" alt="Lighthouse: Performance 100, Accessibility 100, Best Practices 100, SEO 100" width="660"></a>

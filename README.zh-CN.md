@@ -18,6 +18,8 @@
 [**在线演示**](https://siruizou.com/academic-homepage/) &nbsp;·&nbsp;
 [**用这个模板建仓库**](https://github.com/siruizou2005/academic-homepage/generate)
 
+<sub>觉得有用的话点个 star——下一个人就是这样找到它的。</sub>
+
 <br>
 
 <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fsiruizou.com%2Facademic-homepage%2F&form_factor=mobile"><img src="docs/lighthouse.png" alt="Lighthouse：性能 100、无障碍 100、最佳实践 100、SEO 100" width="660"></a>
