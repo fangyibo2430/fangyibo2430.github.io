@@ -125,8 +125,8 @@ const jsonLd = {
 
       {
         awards.length > 0 && (
-          <Section id="awards" title="Awards & Grants">
-            <EntryList items={awards} />
+          <Section id="awards" title="Awards & Honors">
+            <EntryList items={awards.slice(0, 2)} />
           </Section>
         )
       }
