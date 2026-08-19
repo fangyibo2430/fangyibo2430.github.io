@@ -176,6 +176,7 @@ aside {
 }
 .side-links a {
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 .side-links a:hover {
   text-decoration: underline;

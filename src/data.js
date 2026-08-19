@@ -16,7 +16,7 @@ export const profile = {
   location: "",
   photo: portrait,
   links: [
-    { label: "Email", href: "mailto:yibofang@link.cuhk.edu.hk" },
+    { label: "yibofang@link.cuhk.edu.hk", href: "mailto:yibofang@link.cuhk.edu.hk" },
     // TODO: Add this after placing the real PDF in public/:
     // { label: "CV (PDF)", href: CV_URL, newTab: true },
   ],
