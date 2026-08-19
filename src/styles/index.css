@@ -175,16 +175,7 @@ aside {
   line-height: 1.4;
 }
 .side-links a {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
   text-decoration: none;
-}
-.side-link-icon {
-  width: 1em;
-  height: 1em;
-  flex: 0 0 1em;
-  object-fit: contain;
 }
 .side-links a:hover {
   text-decoration: underline;
@@ -303,7 +294,7 @@ section hr {
 .pub-title-link {
   display: inline-block;
   margin-left: 5px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1;
   text-decoration: none;
   vertical-align: 0.08em;
