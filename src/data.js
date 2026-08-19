@@ -23,7 +23,7 @@ export const profile = {
 };
 
 export const about = [
-  `I am a Ph.D. student in Decisions, Operations and Technology at The Chinese
+  `I am a first-year Ph.D. student in Decisions, Operations and Technology at The Chinese
    University of Hong Kong.`,
   `My research explores how artificial intelligence can support complex
    decision-making. My current interests include collaboration among large
