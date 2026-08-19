@@ -42,14 +42,12 @@ export const education = [
     date: "Aug 2026 – Present",
     logo: cuhk,
     logoScale: 1.25,
-    url: "https://www.cuhk.edu.hk/",
   },
   {
     org: "Shanghai Jiao Tong University",
     role: "Master of Management in Management Science and Engineering",
     date: "Sep 2023 – Mar 2026",
     logo: sjtu,
-    url: "https://www.acem.sjtu.edu.cn/en/",
   },
   {
     org: "Wuhan University",
@@ -57,7 +55,6 @@ export const education = [
     date: "Sep 2019 – Jun 2023",
     logo: whu,
     logoScale: 0.93,
-    url: "https://sim.whu.edu.cn/",
   },
 ];
 
