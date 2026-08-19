@@ -52,7 +52,7 @@ export const education = [
     url: "https://www.acem.sjtu.edu.cn/en/",
   },
   {
-    org: "Wuhan University, School of Information Management",
+    org: "Wuhan University",
     role: "Bachelor of Management in Information Management and Information Systems",
     date: "Sep 2019 – Jun 2023",
     logo: whu,
