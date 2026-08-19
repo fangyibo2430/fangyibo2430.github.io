@@ -28,6 +28,8 @@ export const about = [
   `My current work primarily focuses on design science research involving
    large language models (LLMs). I am also actively exploring my broader
    research interests and compelling research questions.`,
+  `I have three adorable cats: Bubu, Quanquan, and Mianmian, from oldest to
+   youngest.`,
 ];
 
 // Keep news newest first. HTML is allowed in news text, authors, and venue.
