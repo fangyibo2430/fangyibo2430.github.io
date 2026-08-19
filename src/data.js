@@ -24,7 +24,7 @@ export const profile = {
 
 export const about = [
   `I am a Ph.D. student (Year 1) in Decisions, Operations and Technology at The Chinese
-   University of Hong Kong.`,
+   University of Hong Kong, advised by Prof. Michael Zhang.`,
   `My current work primarily focuses on design science research involving
    large language models (LLMs). I am also actively exploring my broader
    research interests and compelling research questions.`,
