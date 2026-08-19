@@ -175,14 +175,16 @@ aside {
   line-height: 1.4;
 }
 .side-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   text-decoration: none;
 }
-.side-links a[href^="mailto:"]::before {
-  content: "✉";
-  display: inline-block;
-  margin-right: 7px;
-  font-size: 14px;
-  line-height: 1;
+.side-link-icon {
+  width: 1em;
+  height: 1em;
+  flex: 0 0 1em;
+  object-fit: contain;
 }
 .side-links a:hover {
   text-decoration: underline;

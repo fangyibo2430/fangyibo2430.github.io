@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { profile } from "../data.js";
 import { site } from "../site.config.js";
+import emailIcon from "../assets/icons/email.png";
 import ThemeToggle from "./ThemeToggle.astro";
 ---
 
@@ -38,7 +39,12 @@ import ThemeToggle from "./ThemeToggle.astro";
           target={l.newTab ? "_blank" : undefined}
           rel={l.newTab ? "noopener noreferrer" : undefined}
         >
-          {l.label}
+          {
+            l.href.startsWith("mailto:") && (
+              <Image class="side-link-icon" src={emailIcon} alt="" width={16} height={16} />
+            )
+          }
+          <span>{l.label}</span>
         </a>
       ))
     }
