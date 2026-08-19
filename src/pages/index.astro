@@ -14,7 +14,6 @@ import {
   education,
   publications,
   workingPapers,
-  awards,
   teaching,
   lastUpdated,
 } from "../data.js";
@@ -119,22 +118,6 @@ const jsonLd = {
                 <PubItem {...p} />
               ))}
             </div>
-          </Section>
-        )
-      }
-
-      {
-        awards.length > 0 && (
-          <Section id="awards" title="Awards and Honours">
-            <ul class="awards-list">
-              {awards.slice(0, 2).map((award) => (
-                <li>
-                  <strong>{award.org}</strong>
-                  {award.role && <span class="muted"> — {award.role}</span>}
-                  {award.date && <span class="muted"> ({award.date})</span>}
-                </li>
-              ))}
-            </ul>
           </Section>
         )
       }

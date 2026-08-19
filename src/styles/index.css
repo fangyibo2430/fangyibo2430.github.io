@@ -249,14 +249,6 @@ section hr {
   margin: 0;
 }
 
-.awards-list {
-  margin: 0;
-  padding-left: 1.25em;
-}
-.awards-list li + li {
-  margin-top: 10px;
-}
-
 /* — News — */
 .news {
   list-style: none;
