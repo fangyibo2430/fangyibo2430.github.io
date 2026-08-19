@@ -56,9 +56,15 @@ export const site = {
     },
     // Where you are based. Optional — delete the block to leave it out.
     // `country` is a two-letter ISO code.
-    location: { locality: "Your City", country: "XX" },
+    location: { locality: "Hong Kong", country: "HK" },
     // Research keywords, ordered from most to least central.
-    knowsAbout: ["TODO: primary research area"],
+    knowsAbout: [
+      "Large Language Models",
+      "Multi-Agent AI Systems",
+      "Causal Learning",
+      "Financial Prediction",
+      "Data-Driven Business Analytics",
+    ],
   },
 
   // ── Crawlers ────────────────────────────────────────────────────────────

@@ -66,15 +66,6 @@ const jsonLd = {
 <Base title={title} path="/" jsonLd={jsonLd}>
   {site.demoNotice && <DemoNotice repo={site.repo} />}
 
-  {/* Full-bleed masthead: the rule spans the viewport while the name inside
-      lines up with the content below. */}
-  <header class="site-header">
-    <h1>
-      {profile.nameEn}
-      {profile.nameCn && <span class="cn">{profile.nameCn}</span>}
-    </h1>
-  </header>
-
   <div class="page">
     <Sidebar />
 

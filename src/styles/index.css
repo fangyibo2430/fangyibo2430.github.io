@@ -103,33 +103,6 @@ a:hover {
   color: color-mix(in srgb, var(--color-text) 65%, transparent);
 }
 
-/* ── Masthead ───────────────────────────────────────────────────────────────
-   The rule sits on the full-width header, so it spans the viewport; the h1
-   inside uses the same max-width and padding as .page, so the name lines up
-   with the text below. */
-.site-header {
-  border-bottom: 1px solid var(--color-divider);
-}
-.site-header h1 {
-  max-width: var(--content-max);
-  margin: 0 auto;
-  padding: 30px var(--gutter);
-  font-size: 38px;
-  line-height: 1.15;
-  letter-spacing: -0.015em;
-}
-.site-header .cn {
-  font-family: var(--font-cjk);
-  /* Not 1em: a Han character fills its em box, while Latin capitals occupy
-     about 70% of theirs, so at equal font-size the CJK name looks 22% larger.
-     0.82em is where the two are optically the same height; 0.86em gives the
-     name a little more weight while staying inside the Latin line box. */
-  font-size: 0.86em;
-  letter-spacing: 0; /* CJK glyphs do not want the Latin negative tracking */
-  font-weight: 400;
-  color: color-mix(in srgb, var(--color-text) 55%, transparent);
-}
-
 /* ── Body: sidebar plus a main column that fills the rest ──────────────── */
 .page {
   max-width: var(--content-max);
@@ -480,10 +453,6 @@ footer {
   body {
     font-size: 16px;
     line-height: 1.75;
-  }
-  .site-header h1 {
-    padding: 22px var(--gutter);
-    font-size: 30px;
   }
   .page {
     grid-template-columns: 1fr;
