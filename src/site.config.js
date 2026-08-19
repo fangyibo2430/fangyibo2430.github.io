@@ -35,23 +35,24 @@ export const site = {
   // One or two sentences for search results. Say who you are and what you
   // work on — this is what Google and, increasingly, LLMs quote back.
   description:
-    "Fang Yanbin is an academic researcher at Your Institution. Research " +
-    "interests: TODO.",
+    "Fang Yanbin is a Ph.D. student in Decisions, Operations and Technology " +
+    "at The Chinese University of Hong Kong.",
 
   // Shorter line for link previews (WeChat, X, LinkedIn, Slack).
   socialDescription:
-    "Academic researcher at Your Institution. Research interests: TODO.",
+    "Ph.D. student in Decisions, Operations and Technology at The Chinese " +
+    "University of Hong Kong.",
 
   // ── Structured data (schema.org Person) ─────────────────────────────────
   // Lets search engines and AI assistants state plainly who you are, where you
   // are, and what you work on. Everything else in the JSON-LD block is derived
   // from src/data.js.
   seo: {
-    jobTitle: "Your academic title",
+    jobTitle: "Ph.D. Student in Decisions, Operations and Technology",
     // Your current institution. `sameAs` should be its official homepage.
     affiliation: {
-      name: "Your Institution",
-      sameAs: "https://example.edu/",
+      name: "The Chinese University of Hong Kong",
+      sameAs: "https://www.cuhk.edu.hk/",
     },
     // Where you are based. Optional — delete the block to leave it out.
     // `country` is a two-letter ISO code.

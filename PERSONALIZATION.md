@@ -8,8 +8,8 @@ hidden.
 
 - Full name in English/Roman characters: `Fang Yanbin`
 - Optional Chinese or other-script name
-- Academic title/status and department
-- Institution name and official website
+- Academic title/status and department: `Ph.D. Student in Decisions, Operations and Technology`
+- Institution name and official website: `The Chinese University of Hong Kong` — `https://www.cuhk.edu.hk/`
 - City and two-letter country code
 - Email address
 - GitHub username/profile URL

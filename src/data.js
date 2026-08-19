@@ -5,13 +5,14 @@ export const CV_URL = "Your_Name_CV.pdf";
 export const profile = {
   nameEn: "Fang Yanbin",
   nameCn: "",
-  role: ["Your academic title", "Your institution"],
-  location: "Your city, country/region",
+  role: [
+    "Ph.D. Student in Decisions, Operations and Technology",
+    "The Chinese University of Hong Kong",
+  ],
+  location: "",
   photo: null, // TODO: import and use your portrait; see PERSONALIZATION.md
   links: [
-    { label: "Email", href: "mailto:your.email@example.edu" },
-    { label: "GitHub", href: "https://github.com/your-username" },
-    { label: "Google Scholar", href: "https://scholar.google.com/" },
+    { label: "GitHub", href: "https://github.com/fangyibo2430" },
     // TODO: Add this after placing the real PDF in public/:
     // { label: "CV (PDF)", href: CV_URL, newTab: true },
   ],
