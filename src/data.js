@@ -11,14 +11,12 @@ export const profile = {
   nameEn: "Fang Yanbin",
   nameCn: "",
   role: [
-    "Ph.D. Student in Decisions, Operations and Technology",
-    "The Chinese University of Hong Kong",
+    "Ph.D. Student in Decisions, Operations and Technology, The Chinese University of Hong Kong",
   ],
   location: "",
   photo: portrait,
   links: [
     { label: "Email", href: "mailto:yibofang@link.cuhk.edu.hk" },
-    { label: "GitHub", href: "https://github.com/fangyibo2430" },
     // TODO: Add this after placing the real PDF in public/:
     // { label: "CV (PDF)", href: CV_URL, newTab: true },
   ],
@@ -58,7 +56,7 @@ export const education = [
     role: "Bachelor of Management in Information Management and Information Systems",
     date: "Sep 2019 – Jun 2023",
     logo: whu,
-    logoScale: 0.86,
+    logoScale: 0.93,
     url: "https://sim.whu.edu.cn/",
   },
 ];

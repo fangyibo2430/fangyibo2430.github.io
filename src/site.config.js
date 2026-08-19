@@ -83,7 +83,7 @@ export const site = {
     default: "system",
     // Show the light/dark toggle in the sidebar. With `toggle: false` and
     // `default: "system"` the page ships zero client-side theme JavaScript.
-    toggle: true,
+    toggle: false,
   },
 };
 
