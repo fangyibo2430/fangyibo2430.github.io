@@ -1,6 +1,6 @@
 // Personal content. Replace every TODO using PERSONALIZATION.md.
 // Empty arrays hide their sections automatically.
-import cuhk from "./assets/logos/cuhk.png";
+import cuhk from "./assets/logos/cuhk.jpg";
 import sjtu from "./assets/logos/sjtu.png";
 import whu from "./assets/logos/whu.png";
 
@@ -42,6 +42,7 @@ export const education = [
     role: "Ph.D. Student in Decisions, Operations and Technology",
     date: "2025 – Present",
     logo: cuhk,
+    logoScale: 1.25,
     url: "https://www.cuhk.edu.hk/",
   },
   {

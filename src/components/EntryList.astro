@@ -32,6 +32,7 @@ const withLogo = items.some((e) => e.logo);
                 widths={[48, 96, 144]}
                 sizes="48px"
                 loading="lazy"
+                style={e.logoScale ? `transform: scale(${e.logoScale})` : undefined}
               />
             )}
           </span>
