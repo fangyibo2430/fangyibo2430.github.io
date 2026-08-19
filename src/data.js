@@ -1,5 +1,9 @@
 // Personal content. Replace every TODO using PERSONALIZATION.md.
 // Empty arrays hide their sections automatically.
+import cuhk from "./assets/logos/cuhk.png";
+import sjtu from "./assets/logos/sjtu.png";
+import whu from "./assets/logos/whu.png";
+
 export const CV_URL = "Your_Name_CV.pdf";
 
 export const profile = {
@@ -36,19 +40,22 @@ export const education = [
   {
     org: "The Chinese University of Hong Kong",
     role: "Ph.D. Student in Decisions, Operations and Technology",
-    date: "Present",
+    date: "2025 – Present",
+    logo: cuhk,
     url: "https://www.cuhk.edu.hk/",
   },
   {
     org: "Shanghai Jiao Tong University, Antai College of Economics and Management",
-    role: "Master of Management in Management Science and Engineering · Supervisor: Xuan Wei · GPA: 3.83/4.0 (Rank: 7/48)",
-    date: "Sep 2023 – 2025",
+    role: "Master of Management in Management Science and Engineering",
+    date: "Sep 2023 – Jun 2025",
+    logo: sjtu,
     url: "https://www.acem.sjtu.edu.cn/en/",
   },
   {
     org: "Wuhan University, School of Information Management",
-    role: "Bachelor of Management in Information Management and Information Systems · GPA: 3.93/4.0 (Rank: 1/70)",
+    role: "Bachelor of Management in Information Management and Information Systems",
     date: "Sep 2019 – Jun 2023",
+    logo: whu,
     url: "https://sim.whu.edu.cn/",
   },
 ];
