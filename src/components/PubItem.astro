@@ -8,6 +8,7 @@
 // abstract — which is most of what makes a paper findable.
 const {
   title,
+  url,
   authors,
   venue,
   meta,
@@ -19,7 +20,9 @@ const {
 
 <div class="pub">
   <p class="pub-title">
-    <strong>{title}</strong>
+    <strong>
+      {url ? <a href={url} target="_blank" rel="noopener noreferrer">{title}</a> : title}
+    </strong>
   </p>
   {authors && <p class="pub-meta muted" set:html={authors} />}
   {venue && <p class="pub-venue" set:html={venue} />}

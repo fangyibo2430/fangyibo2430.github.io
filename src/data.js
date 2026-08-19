@@ -63,26 +63,22 @@ export const education = [
 
 export const publications = [
   {
-    title: "Trust or Doubt? Understanding the Mechanisms of Jargon Use on Doubt from the Source Credibility Perspective",
-    authors: "<strong>Yanbin Fang</strong>, Yiwen Zhang, and Yongqiang Sun",
-    venue: "<em>Pacific Asia Conference on Information Systems (PACIS)</em>, 2022",
-    abstract: "Investigates how professional jargon influences consumer doubt through competence-based and trustworthiness-based source credibility. The study uses a 2 × 2 between-subject experiment and analyzes responses from 212 participants using SPSS and PLS.",
+    title: "WILC: A Wisdom Integration Framework for LLM Crowds",
+    url: "https://aisel.aisnet.org/pacis2025/aiandml/aiandml/12/",
+    authors: "<strong>Yanbin Fang</strong>, Xuan Wei, and Wei Chen",
+    venue: "<em>Pacific Asia Conference on Information Systems (PACIS)</em>, 2025",
+    abstract: "Large language models perform strongly across many tasks but can struggle with complex real-world problems that require diverse expertise. WILC enables fine-grained, query-level collaboration among LLMs through multi-round reflective dialogue and contextual-bandit matching. Experiments across three challenging benchmarks show that it outperforms individual LLMs and existing multi-model approaches.",
   },
   {
-    title: "Research on the Method of Identifying Potential Interdisciplinary Knowledge Association Based on Link Prediction",
-    authors: "Jin Mao, <strong>Yanbin Fang</strong>, and Hongyi Lan",
-    venue: "<em>China Intelligence Science Annual Conference and Development Forum of Intelligence Science and Intelligence Work</em>, 2022",
-    abstract: "Develops an interdisciplinary knowledge-discovery framework based on link prediction and validates it in the field of medical informatics.",
+    title: "Trust or Doubt? Understanding the Mechanisms of Jargon Use on Doubt from the Source Credibility Perspective",
+    url: "https://aisel.aisnet.org/pacis2022/157/",
+    authors: "<strong>Yanbin Fang</strong>, Yiwen Zhang, and Yongqiang Sun",
+    venue: "<em>Pacific Asia Conference on Information Systems (PACIS)</em>, 2022",
+    abstract: "This study examines how the use of professional jargon in user-generated content shapes consumer doubt through competence- and trustworthiness-based source credibility. Using a 2 × 2 experiment that varies jargon use and recommender identity, the authors analyze responses from 212 participants with SPSS and PLS. The results reveal multiple indirect effects of jargon on doubt and show that customer expertise moderates how jargon influences trustworthiness-based credibility.",
   },
 ];
 
 export const workingPapers = [
-  {
-    title: "WILC: A Wisdom Integration Framework for LLM Crowds",
-    authors: "<strong>Yanbin Fang</strong>, Xuan Wei, and Wei Chen",
-    meta: "Conditionally accepted by PACIS 2025",
-    abstract: "Introduces Wisdom Integration for LLM Crowds, a framework for dynamic, query-level collaboration among heterogeneous LLMs. It combines multi-round reflective dialogue with contextual-bandit matching of queries to models.",
-  },
   {
     title: "Temporal Causal Graph Learning for Stock Prediction",
     authors: "Xuan Wei, <strong>Yanbin Fang</strong>, and Yechao Chen",
