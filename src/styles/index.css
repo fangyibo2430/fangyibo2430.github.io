@@ -291,17 +291,6 @@ section hr {
   line-height: 1.5;
   margin: 0;
 }
-.pub-title-link {
-  display: inline-block;
-  margin-left: 5px;
-  font-size: 13px;
-  line-height: 1;
-  text-decoration: none;
-  vertical-align: 0.08em;
-}
-.pub-title-link:hover {
-  text-decoration: underline;
-}
 .pub-meta {
   font-size: 15.5px;
   line-height: 1.5;

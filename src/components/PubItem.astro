@@ -21,27 +21,13 @@ const {
 <div class="pub">
   <p class="pub-title">
     <strong>{title}</strong>
-    {
-      url && (
-        <a
-          class="pub-title-link"
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`Open ${title}`}
-          title="Open publication page"
-        >
-          🔗
-        </a>
-      )
-    }
   </p>
   {authors && <p class="pub-meta muted" set:html={authors} />}
   {venue && <p class="pub-venue" set:html={venue} />}
   {meta && <p class="pub-meta muted">{meta}</p>}
 
   {
-    (abstract || bibtex || links.length > 0) && (
+    (abstract || url || bibtex || links.length > 0) && (
       <div class="pub-actions">
         {abstract && (
           <button
@@ -52,6 +38,11 @@ const {
           >
             Abstract
           </button>
+        )}
+        {url && (
+          <a class="pill" href={url} target="_blank" rel="noopener noreferrer">
+            Paper
+          </a>
         )}
         {links.map((l) => (
           <a class="pill" href={l.href} target="_blank" rel="noopener noreferrer">
