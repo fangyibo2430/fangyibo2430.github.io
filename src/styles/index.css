@@ -124,7 +124,7 @@ aside {
   width: 200px;
   max-width: 100%;
   /* A non-square box with border-radius:50% is an ellipse, not a circle */
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 5 / 6;
   border-radius: 50%;
   overflow: hidden;
   background: var(--color-surface);
@@ -175,6 +175,13 @@ aside {
 }
 .side-links a {
   text-decoration: none;
+}
+.side-links a[href^="mailto:"]::before {
+  content: "✉";
+  display: inline-block;
+  margin-right: 7px;
+  font-size: 14px;
+  line-height: 1;
 }
 .side-links a:hover {
   text-decoration: underline;
@@ -289,6 +296,17 @@ section hr {
   font-size: 17.5px;
   line-height: 1.5;
   margin: 0;
+}
+.pub-title-link {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: 0.08em;
+}
+.pub-title-link:hover {
+  text-decoration: underline;
 }
 .pub-meta {
   font-size: 15.5px;

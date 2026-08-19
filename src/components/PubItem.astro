@@ -20,9 +20,21 @@ const {
 
 <div class="pub">
   <p class="pub-title">
-    <strong>
-      {url ? <a href={url} target="_blank" rel="noopener noreferrer">{title}</a> : title}
-    </strong>
+    <strong>{title}</strong>
+    {
+      url && (
+        <a
+          class="pub-title-link"
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Open ${title}`}
+          title="Open publication page"
+        >
+          ↗
+        </a>
+      )
+    }
   </p>
   {authors && <p class="pub-meta muted" set:html={authors} />}
   {venue && <p class="pub-venue" set:html={venue} />}
