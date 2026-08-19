@@ -14,8 +14,6 @@ import {
   education,
   publications,
   workingPapers,
-  experience,
-  projects,
   awards,
   teaching,
   lastUpdated,
@@ -121,22 +119,6 @@ const jsonLd = {
                 <PubItem {...p} />
               ))}
             </div>
-          </Section>
-        )
-      }
-
-      {
-        experience.length > 0 && (
-          <Section id="experience" title="Research Experience">
-            <EntryList items={experience} />
-          </Section>
-        )
-      }
-
-      {
-        projects.length > 0 && (
-          <Section id="projects" title="Projects">
-            <EntryList items={projects} />
           </Section>
         )
       }
