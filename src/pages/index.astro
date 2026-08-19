@@ -14,7 +14,6 @@ import {
   education,
   publications,
   workingPapers,
-  awards,
   teaching,
   lastUpdated,
 } from "../data.js";
@@ -119,14 +118,6 @@ const jsonLd = {
                 <PubItem {...p} />
               ))}
             </div>
-          </Section>
-        )
-      }
-
-      {
-        awards.length > 0 && (
-          <Section id="awards" title="Awards & Honors">
-            <EntryList items={awards.slice(0, 2)} />
           </Section>
         )
       }
