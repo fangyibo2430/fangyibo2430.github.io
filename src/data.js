@@ -25,10 +25,9 @@ export const profile = {
 export const about = [
   `I am a Ph.D. student (Year 1) in Decisions, Operations and Technology at The Chinese
    University of Hong Kong.`,
-  `My research explores how artificial intelligence can support complex
-   decision-making. My current interests include collaboration among large
-   language models, causal learning and prompting, financial prediction, and
-   data-driven business analytics.`,
+  `My current work primarily focuses on design science research involving
+   large language models (LLMs). I am also actively exploring my broader
+   research interests and compelling research questions.`,
 ];
 
 // Keep news newest first. HTML is allowed in news text, authors, and venue.
