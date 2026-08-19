@@ -159,6 +159,12 @@ aside {
   line-height: 1.55;
   margin: 8px 0 0;
 }
+.side-role span {
+  display: block;
+}
+.side-role span + span {
+  margin-top: 4px;
+}
 .side-links {
   display: flex;
   flex-direction: column;

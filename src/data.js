@@ -3,6 +3,7 @@
 import cuhk from "./assets/logos/cuhk.jpg";
 import sjtu from "./assets/logos/sjtu.png";
 import whu from "./assets/logos/whu.png";
+import portrait from "./assets/profile/fang-yanbin.jpg";
 
 export const CV_URL = "Your_Name_CV.pdf";
 
@@ -14,9 +15,9 @@ export const profile = {
     "The Chinese University of Hong Kong",
   ],
   location: "",
-  photo: null, // TODO: import and use your portrait; see PERSONALIZATION.md
+  photo: portrait,
   links: [
-    { label: "Email", href: "mailto:yibo_fang@sjtu.edu.cn" },
+    { label: "Email", href: "mailto:yibofang@link.cuhk.edu.hk" },
     { label: "GitHub", href: "https://github.com/fangyibo2430" },
     // TODO: Add this after placing the real PDF in public/:
     // { label: "CV (PDF)", href: CV_URL, newTab: true },
@@ -40,7 +41,7 @@ export const education = [
   {
     org: "The Chinese University of Hong Kong",
     role: "Ph.D. Student in Decisions, Operations and Technology",
-    date: "2025 – Present",
+    date: "Aug 2026 – Present",
     logo: cuhk,
     logoScale: 1.25,
     url: "https://www.cuhk.edu.hk/",
@@ -48,7 +49,7 @@ export const education = [
   {
     org: "Shanghai Jiao Tong University, Antai College of Economics and Management",
     role: "Master of Management in Management Science and Engineering",
-    date: "Sep 2023 – Jun 2025",
+    date: "Sep 2023 – Mar 2026",
     logo: sjtu,
     url: "https://www.acem.sjtu.edu.cn/en/",
   },
@@ -57,6 +58,7 @@ export const education = [
     role: "Bachelor of Management in Information Management and Information Systems",
     date: "Sep 2019 – Jun 2023",
     logo: whu,
+    logoScale: 0.86,
     url: "https://sim.whu.edu.cn/",
   },
 ];
