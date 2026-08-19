@@ -24,9 +24,7 @@ export const profile = {
 
 export const about = [
   `I am a Ph.D. student in Decisions, Operations and Technology at The Chinese
-   University of Hong Kong. Before beginning my doctoral studies, I studied
-   Management Science and Engineering at Shanghai Jiao Tong University and
-   Information Management and Information Systems at Wuhan University.`,
+   University of Hong Kong.`,
   `My research explores how artificial intelligence can support complex
    decision-making. My current interests include collaboration among large
    language models, causal learning and prompting, financial prediction, and
