@@ -45,7 +45,7 @@ export const education = [
     url: "https://www.cuhk.edu.hk/",
   },
   {
-    org: "Shanghai Jiao Tong University, Antai College of Economics and Management",
+    org: "Shanghai Jiao Tong University",
     role: "Master of Management in Management Science and Engineering",
     date: "Sep 2023 – Mar 2026",
     logo: sjtu,
